@@ -83,7 +83,7 @@ export const data = {
 
     audio: './src/assets/audio/bgm.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbw20dzmJFBhCGIOMJXuKadQa9HQkABtLK47t-SWU9JMLeR25NiU5vF1Dxk0I3k_HmSZCQ/exec',
+    api: 'https://script.google.com/macros/s/AKfycby8hke_3noZvelN_obkrNZLmWWb0t5p41iiPFZsAESuyysH2geI496QpqNuwJNIDS5HCA/exec',
 
     navbar: [
         {
