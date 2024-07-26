@@ -26,7 +26,7 @@
 
 2. **Note**: You have two options to use this source code:
     - **Without Modification**: Open the
-      file [data.js](https://github.com/SandiPerdiansah/wedding-invitation/blob/main/src/assets/data/data.js) to use the
+      file [data.js](https://github.com/botvi/wedding-invitation/blob/main/src/assets/data/data.js) to use the
       code as is.
     - **With Customization**: Adjust the appearance and content according to your needs.
 
