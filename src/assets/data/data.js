@@ -2,94 +2,88 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Yovi Ardiansyah',
-            child: 'Putra ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
-            image: './src/assets/images/cowo.png'
+            name: 'Alek Lifantoro',
+            child: 'Putra ke 4',
+            father: 'Marsandi',
+            mother: 'Khotimah',
+            image: './src/assets/images/wedd_memlaki.jpg'
         },
         P: {
             id: 2,
-            name: 'Ipsum Lorem',
-            child: 'Putri ke lorem',
-            father: 'Lorem',
-            mother: 'Ipsum',
-            image: './src/assets/images/cewe.png'
+            name: 'Santa Destia Wati, S.E',
+            child: 'Putri ke 4',
+            father: 'Parlindungan Simamora',
+            mother: 'Rohanah',
+            image: './src/assets/images/wedd_memperem.jpg'
         },
 
-        couple: './src/assets/images/couple.png'
+        couple: './src/assets/images/5.jpg'
     },
 
     time: {
         marriage: {
             year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            month: 'Agustus',
+            date: '19',
+            day: 'Senin',
             hours: {
-                start: '08.00',
+                start: '09.00',
                 finish: 'Selesai'
             }
         },
         reception: {
             year: '2024',
-            month: 'November',
-            date: '14',
-            day: 'Kamis',
+            month: 'Agustus',
+            date: '20',
+            day: 'Selasa',
             hours: {
-                start: '11.00',
+                start: '10.00',
                 finish: 'Selesai'
             }
         },
-        address: 'Kp. Lorem, RT 000/ RW 000, Desa.Lorem, Kec.Ipsum, Kab.Lorem, Lorem (1234)'
+        address: 'Akad Dikediaman mempelai perempuan di desa kuantan sako & Resepsi Dikediaman mempelai pria desa hulu teso blok E'
     },
 
     link: {
-        calendar: 'https://calendar.app.google/HQMqYEZwFMRSnmjL7',
-        map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
+        calendar: 'https://calendar.app.google/2BqDMSPmtQeQtffC8',
+        map: 'https://maps.app.goo.gl/Cf8erggqzSbtuQ6B9',
     },
 
     galeri: [
         {
             id: 1,
-            image: './src/assets/images/1.png'
+            image: './src/assets/images/1.jpg'
         },
         {
             id: 2,
-            image: './src/assets/images/2.png'
+            image: './src/assets/images/2.jpg'
         },
         {
             id: 3,
-            image: './src/assets/images/3.png'
+            image: './src/assets/images/3.jpg'
         },
         {
             id: 4,
-            image: './src/assets/images/4.png'
+            image: './src/assets/images/4.jpg'
         },
         {
             id: 5,
-            image: './src/assets/images/5.png'
+            image: './src/assets/images/5.jpg'
         }
     ],
 
     bank: [
         {
-            id: 1,
-            name: 'Lorem Ipsum',
-            icon: './src/assets/images/bca.png',
-            rekening: '12345678'
-        },
-        {
             id: 2,
-            name: 'Ipsum Lorem',
+            name: 'SANTA DESTIA WATI',
             icon: './src/assets/images/bri.png',
-            rekening: '12345678'
+            rekening: '764601006341534'
         },
     ],
 
-    audio: './src/assets/audio/wedding.mp3',
+    audio: './src/assets/audio/bgm.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbzGUCrwpHxz8A7x9OLVxXE0K8-cBt8vhjm1w17lukWvXh1Dh11eLYERFh1WEhjiKTkq8w/exec',
+    api: 'https://script.google.com/macros/s/AKfycbw20dzmJFBhCGIOMJXuKadQa9HQkABtLK47t-SWU9JMLeR25NiU5vF1Dxk0I3k_HmSZCQ/exec',
 
     navbar: [
         {
