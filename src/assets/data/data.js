@@ -2,7 +2,7 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Lorem Ipsum',
+            name: 'Yovi Ardiansyah',
             child: 'Putra ke lorem',
             father: 'Lorem',
             mother: 'Ipsum',
@@ -45,7 +45,7 @@ export const data = {
     },
 
     link: {
-        calendar: 'https://calendar.app.google/sZuPoeZejuhSmmbi7',
+        calendar: 'https://calendar.app.google/HQMqYEZwFMRSnmjL7',
         map: 'https://maps.app.goo.gl/q1Ask2Jgd4ekiiKBA',
     },
 
@@ -89,7 +89,7 @@ export const data = {
 
     audio: './src/assets/audio/wedding.mp3',
 
-    api: 'https://script.google.com/macros/s/AKfycbw20dzmJFBhCGIOMJXuKadQa9HQkABtLK47t-SWU9JMLeR25NiU5vF1Dxk0I3k_HmSZCQ/exec',
+    api: 'https://script.google.com/macros/s/AKfycbzGUCrwpHxz8A7x9OLVxXE0K8-cBt8vhjm1w17lukWvXh1Dh11eLYERFh1WEhjiKTkq8w/exec',
 
     navbar: [
         {
