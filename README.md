@@ -21,7 +21,7 @@
 
 1. **Download the project or clone the repository**:
     ```bash
-    git clone https://github.com/sandiperdiansah/wedding-invitation.git
+    git clone https://github.com/botvi/wedding-invitation.git
     ```
 
 2. **Note**: You have two options to use this source code:
