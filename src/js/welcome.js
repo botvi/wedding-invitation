@@ -22,12 +22,16 @@ export const welcome = () => {
     const generateParameterContent = () => {
         const name = document.querySelector('#name');
         const params = getQueryParameter('to');
-
+        
         if (params) {
             weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
             name.value = params;
         } else {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>Teman-teman semua</span>`;
+            const urlPath = window.location.pathname;
+            const defaultName = urlPath.substring(urlPath.lastIndexOf('/') + 1);
+            const finalName = defaultName ? defaultName : 'Teman-teman semua';
+            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${finalName}</span>`;
+            name.value = finalName;
         }
     }
 
@@ -37,7 +41,6 @@ export const welcome = () => {
         audioMusic.innerHTML = `<source src=${data.audio} type="audio/mp3"/>`;
 
         audioButton.addEventListener('click', () => {
-
             if (isPlaying) {
                 addClassElement(audioButton, 'active');
                 removeClassElement(iconButton, 'bx-play-circle');
