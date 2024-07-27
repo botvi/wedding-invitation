@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Generator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+            background-color: #212529;
+        }
+        .output {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            word-wrap: break-word;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            margin: 0 10px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-light">URL Generator</h1>
+        <div class="form-group">
+            <label for="name" class="text-light">Masukkan Nama:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name">
+        </div>
+        <button class="btn btn-primary btn-block" onclick="generateURL()">Buat URL</button>
+        <div class="output" id="output"></div>
+        <button class="btn btn-success btn-block mt-2" onclick="copyToClipboard()">Salin</button>
+    </div>
+
+    <footer class="footer">
+        <a href="https://www.instagram.com/yoviard_" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pandekakode" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://wa.me/6285156985623" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://github.com/botvi" target="_blank"><i class="fab fa-github"></i></a>
+    </footer>
+
+    <script>
+        function generateURL() {
+            const name = document.getElementById('name').value;
+            const baseURL = 'https://botvi.github.io/wedding-invitation/?to=';
+            const encodedName = encodeURIComponent(name);
+            const fullURL = baseURL + encodedName;
+            document.getElementById('output').innerText = fullURL;
+        }
+
+        function copyToClipboard() {
+            const output = document.getElementById('output');
+            const textArea = document.createElement('textarea');
+            textArea.value = output.innerText;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('URL copied to clipboard');
+        }
+    </script>
+</body>
+</html>
